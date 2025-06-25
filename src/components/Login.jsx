@@ -56,7 +56,20 @@ const Login = () => {
 
         <a href="#" className="forgot-password-link">Esqueci minha senha</a>
 
-        <div className="register-link">
+          <div class="social-login">
+  <p>Ou entre com</p>
+  <div class="social-buttons">
+    <button class="google-login">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google" />
+      Google
+    </button>
+    <button class="facebook-login">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/facebook/facebook-original.svg" alt="Facebook" />
+      Facebook
+    </button>
+  </div>
+</div>
+  <div className="register-link">
           <p>
             Não tem uma conta?
             <a href="#"> Registrar</a>
